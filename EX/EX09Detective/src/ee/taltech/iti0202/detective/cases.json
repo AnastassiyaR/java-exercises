@@ -1,0 +1,64 @@
+[
+  {
+    "caseId": 1,
+    "title": "Kohvimasina vargus",
+    "description": "Ministeeriumi kohvimasin Jura viidi koju.",
+    "suspects": [
+      {
+        "name": "Mailis Reps",
+        "age": 40,
+        "alibi": "Puudub",
+        "criminalRecord": true,
+        "motive": "Tahtis kohvimasinat"
+      },
+      {
+        "name": "Arnold Rebane",
+        "age": 42,
+        "alibi": "Kodus",
+        "criminalRecord": false,
+        "motive": "Puudub"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "Kohvimasin",
+        "foundAt": "Mailis Repsi kodu"
+      },
+      {
+        "type": "Kahtlustused",
+        "foundAt": "Ministeerium"
+      }
+    ]
+  },
+  {
+    "caseId": 2,
+    "title": "Poerööv",
+    "description": "Linnahalli Circle K-st varastasid maskides inimesed 20 eurot.",
+    "suspects": [
+      {
+        "name": "Mati Kopp",
+        "age": 16,
+        "alibi": "Puudub",
+        "criminalRecord": true,
+        "motive": "Rasked ajad"
+      },
+      {
+        "name": "Priidik Klemp",
+        "age": 37,
+        "alibi": "Puhastas kodus aknaid",
+        "criminalRecord": false,
+        "motive": "Puudub"
+      }
+    ],
+    "evidence": [
+      {
+        "type": "Raha",
+        "foundAt": "Mati taskus"
+      },
+      {
+        "type": "Kaamera",
+        "foundAt": "Poes"
+      }
+    ]
+  }
+]
