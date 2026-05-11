@@ -32,9 +32,9 @@ public class DataStructures {
 
         Arrays.sort(words, (a, b) -> {
             if (b.length() != a.length()) {
-                return b.length() - a.length(); // Сортировка по длине (по убыванию)
+                return b.length() - a.length();
             }
-            return a.compareTo(b); // Лексикографическая сортировка (по возрастанию)
+            return a.compareTo(b);
         });
 
         return words[0];
@@ -130,7 +130,7 @@ public class DataStructures {
      * @return int student's grade.
      */
     public int getStudentGrade(String name) {
-        return students.getOrDefault(name, -1);  // Если студент не найден, возвращаем -1
+        return students.getOrDefault(name, -1);
     }
 
     /**

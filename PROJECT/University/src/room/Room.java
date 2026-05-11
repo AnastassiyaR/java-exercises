@@ -175,7 +175,7 @@ public class Room {
 
         if (user instanceof Student student) {
             double grade = student.getAverageGrade();
-            breakChance = 1.0 - (grade / 5.0); // 1.0 → 80%, 2.0 → 60% and etc
+            breakChance = 1.0 - (grade / 5.0);
         }
 
         if (participantsCount > maxParticipants) {

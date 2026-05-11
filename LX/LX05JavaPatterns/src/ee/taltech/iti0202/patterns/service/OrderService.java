@@ -14,7 +14,7 @@ public class OrderService {
      */
     public double calculatePrice(Order order, DiscountStrategy strategy) {
         return order.getProducts().stream()
-                .mapToDouble(strategy::calculatePrice) // применяем стратегию к каждому товару
+                .mapToDouble(strategy::calculatePrice)
                 .sum();
     }
 }

@@ -11,10 +11,10 @@ public class WebBrowser {
     private final Stack<String> historyForward = new Stack<>(); // [] list
     private final Set<String> bookmarks = new HashSet<>(); // [] like set in python
 
-    // Конструктор
+
     public WebBrowser() {
-        visitsPerUrl.put(homePage, 1); // Инициализация домашней страницы
-        history.add(homePage); // Добавляем домашнюю страницу в историю
+        visitsPerUrl.put(homePage, 1);
+        history.add(homePage);
     }
 
     /**

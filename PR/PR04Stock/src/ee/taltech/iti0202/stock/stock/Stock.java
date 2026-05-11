@@ -25,9 +25,8 @@ import java.util.stream.Collectors;
  */
 
 public class Stock {
-    private String name;
 
-    // Product меется в виду класс product
+    private String name;
     private List<Product> products;
     private int maxCapacity;
 
